@@ -128,6 +128,7 @@ export default function Customerlist() {
     ]
     return (
     <div>
+        <div><h1>Customers</h1></div>;
         <div>
              <Addcustomer saveCustomer={saveCustomer} />
         </div>

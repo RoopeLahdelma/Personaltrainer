@@ -98,7 +98,11 @@ export default function Traininglist() {
         <div>
             <div>
             
-            
+            <div>
+                <h1>Trainings</h1>
+                <p>you can add trainings to customers in customer tab!</p>
+            </div>
+
             </div>
             <ReactTable filterable={true} data={trainings} columns={columns} />
 
